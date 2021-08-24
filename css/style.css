@@ -1,0 +1,64 @@
+
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2em;
+font-weight: bold;
+color:white;
+}
+
+.custom-nav-item a{
+  color:white !important;
+}
+
+
+.custom-nav-item:hover{
+  background-color: #dc3545;
+  border: solid #dc3545 1px;
+  border-radius: 10px;
+}
+
+.bottom-banner{
+  color: white;
+  padding: 10px;
+}
+
+.heading{
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
+}
+
+
+.stripe{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
+  background-image: linear-gradient(240deg,#ed213a,#93291e);
+  transform: rotate(10deg);
+  z-index: -5;
+  padding: 3rem;
+  height: 13rem;margin-top: 4rem;
+
+}
+
+.form-group{
+  padding: 10px;
+}
+
+.modal{
+  background: url('ai5.jpeg');
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:700px){
+    .heading,.my-content,.text-banner,.stripe{
+      display: none;
+    }
+}
